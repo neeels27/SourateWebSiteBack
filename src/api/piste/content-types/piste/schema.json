@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pistes",
+  "info": {
+    "singularName": "piste",
+    "pluralName": "pistes",
+    "displayName": "Piste",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "string"
+    },
+    "audio": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "contenu": {
+      "type": "richtext"
+    }
+  }
+}
